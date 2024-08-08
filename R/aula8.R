@@ -12,7 +12,7 @@ dicionario <- list(
 print(dicionario)
 
 for(pessoa in dicionario){
-  print(paste("Nome:", pessoa$nome, "Idade", pessoa$idade, "Cidade", pessoa$cidade))
+  print(paste("Nome:", pessoa$nome, "Idade:", pessoa$idade, "Cidade:", pessoa$cidade))
 }
 
 soma <- 10 + 20
