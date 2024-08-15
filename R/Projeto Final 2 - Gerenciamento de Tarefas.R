@@ -17,9 +17,7 @@ for(tarefa in tarefas){
   print(paste("Tarefa:", tarefa$tarefa, "Status:", tarefa$status))
 }
 
-tarefaFeita <- tarefas[4] 
-tarefaFeita$status <- TRUE
-tarefas[4] <- tarefaFeita
+tarefas[["tarefa4"]]$status <- TRUE
 
 print("")
 
